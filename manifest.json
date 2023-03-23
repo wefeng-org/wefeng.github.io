@@ -1,0 +1,464 @@
+{
+  "homepages": [],
+  "source_base_path": "D:/workspase/docfx_project",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Plugin.BaseConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Plugin.BaseConfig.html",
+          "hash": "5ahgsfL0pKFw/+5odWzJ2Oe6I44vczn0roo6iRjHDUE="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Plugin.Conts.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Plugin.Conts.html",
+          "hash": "073k+A+w4FUhlTw1agLsjFxU7mYawt/bOo+GiH5YwAE="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Plugin.DbEntitys.Data.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Plugin.DbEntitys.Data.html",
+          "hash": "33LClzzd+02GQqAKt3J6JhZGlrhUIPu72PSd79XQFKo="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Plugin.DbEntitys.Evn.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Plugin.DbEntitys.Evn.html",
+          "hash": "8HKIbj71q/kRDG0vNGOmKHKMzvQfOIANi7KMEZu+hmI="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Plugin.DbEntitys.Integral.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Plugin.DbEntitys.Integral.html",
+          "hash": "k5yNb1Lwm0hhElzVA4vS4rDOearo1vUxY2fY07Poj6c="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Plugin.DbEntitys.IntegralList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Plugin.DbEntitys.IntegralList.html",
+          "hash": "z783QB1QhxUyIILJsofzPycCEg5sqZ+Cr3b/G/4ty58="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Plugin.DbEntitys.PluginConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Plugin.DbEntitys.PluginConfig.html",
+          "hash": "pISSy6ARnIKnrEMYDG2JGANGrCk+srmxofe1AxT7Bpk="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Plugin.DbEntitys.PluginConfigs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Plugin.DbEntitys.PluginConfigs.html",
+          "hash": "cMTnukftm7I5bYK27zHPtyFNZZ8Xk9s4V4sEOYRa2WY="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Plugin.DbEntitys.RobotConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Plugin.DbEntitys.RobotConfig.html",
+          "hash": "7jTxS519JOBz2w5Z7vOsZP3/A8RmrubxSKXjnTykjno="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Plugin.DbEntitys.Status.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Plugin.DbEntitys.Status.html",
+          "hash": "iSmm5SyXu6YUWPhjbL4S+7ijkIuj8LwdzdOt3KZnobI="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Plugin.DbEntitys.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Plugin.DbEntitys.html",
+          "hash": "RbQodJ2K/UbKmvjft28JwbcxYrrQVsOszIbMVXkKWKs="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Plugin.Eve.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Plugin.Eve.html",
+          "hash": "0nvXehtHdUhcr0rmXjs5CVFq+cJ6wapU6aIxXJj2x+I="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Plugin.EveEntitys.BaseContactArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Plugin.EveEntitys.BaseContactArgs.html",
+          "hash": "sqiX71+or5aM8Hmor1sPUNksSjKW2cXlFcSG5bRZQs0="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Plugin.EveEntitys.ContactArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Plugin.EveEntitys.ContactArgs.html",
+          "hash": "vbo2/RjEbBxo4WlzpdaGUzWJMA3i6pcG/d7vGpScVuk="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Plugin.EveEntitys.ContactIconArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Plugin.EveEntitys.ContactIconArgs.html",
+          "hash": "zXo6OlSPp3H++1GMH8iD9Ch5W6wAln1uWgfZFLvBDkU="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Plugin.EveEntitys.GroupArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Plugin.EveEntitys.GroupArgs.html",
+          "hash": "+IVJXlsEKyG1qNiEk9Ntp/9fSTFVoC9vQI3UWphDjfE="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Plugin.EveEntitys.GroupMemberArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Plugin.EveEntitys.GroupMemberArgs.html",
+          "hash": "fXv3DIMSAIAdXsRbxh3q0DXpn+ErgtN18NngXvGGo0g="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Plugin.EveEntitys.GroupMemberCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Plugin.EveEntitys.GroupMemberCollection.html",
+          "hash": "A6VKuIrqHqKFnK11BfehYOf4KIYW93SR8x+4FDRYKP0="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Plugin.EveEntitys.MessageBoxAgrs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Plugin.EveEntitys.MessageBoxAgrs.html",
+          "hash": "ikZ9y0ZpIVnlq0Gg1ntpLqeyQYh+4nCEVkDxs1PBn6M="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Plugin.EveEntitys.MessageType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Plugin.EveEntitys.MessageType.html",
+          "hash": "vK2XOwqlYDv5UizOeoxsTVIeqgJD5q3B1aJf31sSpuA="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Plugin.EveEntitys.ReceiveFriendMessageArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Plugin.EveEntitys.ReceiveFriendMessageArgs.html",
+          "hash": "tkHcIjQl5292hMM6fUyDg5zBV//rZVVxkU0dF61YksU="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Plugin.EveEntitys.ReceiveGroupMemberEnterArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Plugin.EveEntitys.ReceiveGroupMemberEnterArgs.html",
+          "hash": "n2vo/F8DWT535sT3uQ1LWTTTMqevJkCuFWOvCVUhnqM="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Plugin.EveEntitys.ReceiveGroupMemberQuitArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Plugin.EveEntitys.ReceiveGroupMemberQuitArgs.html",
+          "hash": "WJWKm2iPqCffUlRU/q6bBlqMsBt62P/E8ktgUfFV9Q4="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Plugin.EveEntitys.ReceiveGroupMessageArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Plugin.EveEntitys.ReceiveGroupMessageArgs.html",
+          "hash": "nBfcyeuEEW5MZId60pn3S1Ntf0iIdBuRkIFNjzrzhG4="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Plugin.EveEntitys.ReceiveGroupNameChangeArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Plugin.EveEntitys.ReceiveGroupNameChangeArgs.html",
+          "hash": "IjE2CLq7bAC4Xe5GvsDrMS40Ajv5k35NRjmV9HT/OjA="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Plugin.EveEntitys.ReceiveNewFriendArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Plugin.EveEntitys.ReceiveNewFriendArgs.html",
+          "hash": "2fjdf4AM9ECgdL9qQ2HIavyZnZ2K8ZbWC3YUDh1Myis="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Plugin.EveEntitys.ReceiveOtherDeviceMessageArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Plugin.EveEntitys.ReceiveOtherDeviceMessageArgs.html",
+          "hash": "wSLNu7yly1mOgCBLI/EtmiiFCuDEHFyYTmmBADsLIg0="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Plugin.EveEntitys.ReceiveQRCodePayArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Plugin.EveEntitys.ReceiveQRCodePayArgs.html",
+          "hash": "vhE5mSu3JVQGJNMa9qLlzId6yGCrhhhKc6l9ZMD4sP4="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Plugin.EveEntitys.ReceiveSystemMessageArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Plugin.EveEntitys.ReceiveSystemMessageArgs.html",
+          "hash": "PSjMQN+6RFfsWUTOnya1LrjM0UQYRIZf8cJq4qNl99A="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Plugin.EveEntitys.SendResponseArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Plugin.EveEntitys.SendResponseArgs.html",
+          "hash": "kRomDL9INQUIZAeXRFavQPXVseDFaigVdCWDpartcsQ="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Plugin.EveEntitys.WeClientEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Plugin.EveEntitys.WeClientEventArgs.html",
+          "hash": "gCGlgTvu/DeyxzDQPrelFGtdQRgPMwcyqCbraaw2+0E="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Plugin.EveEntitys.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Plugin.EveEntitys.html",
+          "hash": "MYL85dYicVoub0o9zIZjyVX1I9d84egPMMwLP6K0IxA="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Plugin.IPlugin.EventAsyncHandler-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Plugin.IPlugin.EventAsyncHandler-1.html",
+          "hash": "TYwwN2gJJR0Kakm7HCIaFJ38Q6Ej82uolQibG+SYjuY="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Plugin.IPlugin.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Plugin.IPlugin.html",
+          "hash": "ccZfQUXss5gEwI5kKv7lwDkMa1brVydCSBRlcRADjzU="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Plugin.StaticData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Plugin.StaticData.html",
+          "hash": "Ylxnc2dYLZMN2g+cifPETo0RaOlNbGkgpefhKxisa5Q="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Plugin.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Plugin.html",
+          "hash": "qk2jNdodm6f0VkAfU9a9PpXKsWxVQd2iLLR9O7trLWA="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WeFeng.Db.DbUtilsHelpers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WeFeng.Db.DbUtilsHelpers.html",
+          "hash": "kQAc3KB4esur+FF14nOlEJy61he0O8BGk24Zpecp3xM="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/WeFeng.Db.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/WeFeng.Db.html",
+          "hash": "YIvkLy/qgPIYBCb5IzXK3plTgeZlzUC43vbmi0iAZaQ="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "j9Ijhat5tJ95QBVtIYdtfHZE9WLwQ5zAL6Dq6dqWA+E="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html",
+          "hash": "atofqynhBozf+CUbN6iwUs8KHExCjfcknVzAROGmc2s="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "6cI7Ez6xWhIip3qrVegnDqjtnVyWcu3K7Ok9rfcxn/M="
+        }
+      },
+      "version": ""
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
