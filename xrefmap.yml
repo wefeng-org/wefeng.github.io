@@ -2647,6 +2647,21 @@ references:
   commentId: Overload:Plugin.IPlugin.AddGroupMemberRequest
   fullName: Plugin.IPlugin.AddGroupMemberRequest
   nameWithType: IPlugin.AddGroupMemberRequest
+- uid: Plugin.IPlugin.AddOpenIMContact(System.String,System.String,System.String)
+  name: AddOpenIMContact(string, string, string)
+  href: api/Plugin.IPlugin.html#Plugin_IPlugin_AddOpenIMContact_System_String_System_String_System_String_
+  commentId: M:Plugin.IPlugin.AddOpenIMContact(System.String,System.String,System.String)
+  name.vb: AddOpenIMContact(String, String, String)
+  fullName: Plugin.IPlugin.AddOpenIMContact(string, string, string)
+  fullName.vb: Plugin.IPlugin.AddOpenIMContact(String, String, String)
+  nameWithType: IPlugin.AddOpenIMContact(string, string, string)
+  nameWithType.vb: IPlugin.AddOpenIMContact(String, String, String)
+- uid: Plugin.IPlugin.AddOpenIMContact*
+  name: AddOpenIMContact
+  href: api/Plugin.IPlugin.html#Plugin_IPlugin_AddOpenIMContact_
+  commentId: Overload:Plugin.IPlugin.AddOpenIMContact
+  fullName: Plugin.IPlugin.AddOpenIMContact
+  nameWithType: IPlugin.AddOpenIMContact
 - uid: Plugin.IPlugin.Author
   name: Author
   href: api/Plugin.IPlugin.html#Plugin_IPlugin_Author
@@ -2836,6 +2851,15 @@ references:
   commentId: Overload:Plugin.IPlugin.CreatGroupRequest
   fullName: Plugin.IPlugin.CreatGroupRequest
   nameWithType: IPlugin.CreatGroupRequest
+- uid: Plugin.IPlugin.DelContact(System.String,System.Collections.Generic.List{System.String})
+  name: DelContact(string, List<string>)
+  href: api/Plugin.IPlugin.html#Plugin_IPlugin_DelContact_System_String_System_Collections_Generic_List_System_String__
+  commentId: M:Plugin.IPlugin.DelContact(System.String,System.Collections.Generic.List{System.String})
+  name.vb: DelContact(String, List(Of String))
+  fullName: Plugin.IPlugin.DelContact(string, System.Collections.Generic.List<string>)
+  fullName.vb: Plugin.IPlugin.DelContact(String, System.Collections.Generic.List(Of String))
+  nameWithType: IPlugin.DelContact(string, List<string>)
+  nameWithType.vb: IPlugin.DelContact(String, List(Of String))
 - uid: Plugin.IPlugin.DelContact(System.String,System.String,System.UInt32)
   name: DelContact(string, string, uint)
   href: api/Plugin.IPlugin.html#Plugin_IPlugin_DelContact_System_String_System_String_System_UInt32_
@@ -2845,6 +2869,15 @@ references:
   fullName.vb: Plugin.IPlugin.DelContact(String, String, UInteger)
   nameWithType: IPlugin.DelContact(string, string, uint)
   nameWithType.vb: IPlugin.DelContact(String, String, UInteger)
+- uid: Plugin.IPlugin.DelContact(System.String,System.String)
+  name: DelContact(string, string)
+  href: api/Plugin.IPlugin.html#Plugin_IPlugin_DelContact_System_String_System_String_
+  commentId: M:Plugin.IPlugin.DelContact(System.String,System.String)
+  name.vb: DelContact(String, String)
+  fullName: Plugin.IPlugin.DelContact(string, string)
+  fullName.vb: Plugin.IPlugin.DelContact(String, String)
+  nameWithType: IPlugin.DelContact(string, string)
+  nameWithType.vb: IPlugin.DelContact(String, String)
 - uid: Plugin.IPlugin.DelContact*
   name: DelContact
   href: api/Plugin.IPlugin.html#Plugin_IPlugin_DelContact_
@@ -3127,15 +3160,15 @@ references:
   fullName.vb: Plugin.IPlugin.EventAsyncHandler(Of TEventArgs).New
   nameWithType: IPlugin.EventAsyncHandler<TEventArgs>.EventAsyncHandler
   nameWithType.vb: IPlugin.EventAsyncHandler(Of TEventArgs).New
-- uid: Plugin.IPlugin.EventAsyncHandler`1.BeginInvoke(SuperWx.TLS_BFClent,`0,System.AsyncCallback,System.Object)
-  name: BeginInvoke(TLS_BFClent, TEventArgs, AsyncCallback, object)
-  href: api/Plugin.IPlugin.EventAsyncHandler-1.html#Plugin_IPlugin_EventAsyncHandler_1_BeginInvoke_SuperWx_TLS_BFClent__0_System_AsyncCallback_System_Object_
-  commentId: M:Plugin.IPlugin.EventAsyncHandler`1.BeginInvoke(SuperWx.TLS_BFClent,`0,System.AsyncCallback,System.Object)
-  name.vb: BeginInvoke(TLS_BFClent, TEventArgs, AsyncCallback, Object)
-  fullName: Plugin.IPlugin.EventAsyncHandler<TEventArgs>.BeginInvoke(SuperWx.TLS_BFClent, TEventArgs, System.AsyncCallback, object)
-  fullName.vb: Plugin.IPlugin.EventAsyncHandler(Of TEventArgs).BeginInvoke(SuperWx.TLS_BFClent, TEventArgs, System.AsyncCallback, Object)
-  nameWithType: IPlugin.EventAsyncHandler<TEventArgs>.BeginInvoke(TLS_BFClent, TEventArgs, AsyncCallback, object)
-  nameWithType.vb: IPlugin.EventAsyncHandler(Of TEventArgs).BeginInvoke(TLS_BFClent, TEventArgs, AsyncCallback, Object)
+- uid: Plugin.IPlugin.EventAsyncHandler`1.BeginInvoke(SuperWx.WXUserLogin,`0,System.AsyncCallback,System.Object)
+  name: BeginInvoke(WXUserLogin, TEventArgs, AsyncCallback, object)
+  href: api/Plugin.IPlugin.EventAsyncHandler-1.html#Plugin_IPlugin_EventAsyncHandler_1_BeginInvoke_SuperWx_WXUserLogin__0_System_AsyncCallback_System_Object_
+  commentId: M:Plugin.IPlugin.EventAsyncHandler`1.BeginInvoke(SuperWx.WXUserLogin,`0,System.AsyncCallback,System.Object)
+  name.vb: BeginInvoke(WXUserLogin, TEventArgs, AsyncCallback, Object)
+  fullName: Plugin.IPlugin.EventAsyncHandler<TEventArgs>.BeginInvoke(SuperWx.WXUserLogin, TEventArgs, System.AsyncCallback, object)
+  fullName.vb: Plugin.IPlugin.EventAsyncHandler(Of TEventArgs).BeginInvoke(SuperWx.WXUserLogin, TEventArgs, System.AsyncCallback, Object)
+  nameWithType: IPlugin.EventAsyncHandler<TEventArgs>.BeginInvoke(WXUserLogin, TEventArgs, AsyncCallback, object)
+  nameWithType.vb: IPlugin.EventAsyncHandler(Of TEventArgs).BeginInvoke(WXUserLogin, TEventArgs, AsyncCallback, Object)
 - uid: Plugin.IPlugin.EventAsyncHandler`1.BeginInvoke*
   name: BeginInvoke
   href: api/Plugin.IPlugin.EventAsyncHandler-1.html#Plugin_IPlugin_EventAsyncHandler_1_BeginInvoke_
@@ -3160,14 +3193,14 @@ references:
   fullName.vb: Plugin.IPlugin.EventAsyncHandler(Of TEventArgs).EndInvoke
   nameWithType: IPlugin.EventAsyncHandler<TEventArgs>.EndInvoke
   nameWithType.vb: IPlugin.EventAsyncHandler(Of TEventArgs).EndInvoke
-- uid: Plugin.IPlugin.EventAsyncHandler`1.Invoke(SuperWx.TLS_BFClent,`0)
-  name: Invoke(TLS_BFClent, TEventArgs)
-  href: api/Plugin.IPlugin.EventAsyncHandler-1.html#Plugin_IPlugin_EventAsyncHandler_1_Invoke_SuperWx_TLS_BFClent__0_
-  commentId: M:Plugin.IPlugin.EventAsyncHandler`1.Invoke(SuperWx.TLS_BFClent,`0)
-  fullName: Plugin.IPlugin.EventAsyncHandler<TEventArgs>.Invoke(SuperWx.TLS_BFClent, TEventArgs)
-  fullName.vb: Plugin.IPlugin.EventAsyncHandler(Of TEventArgs).Invoke(SuperWx.TLS_BFClent, TEventArgs)
-  nameWithType: IPlugin.EventAsyncHandler<TEventArgs>.Invoke(TLS_BFClent, TEventArgs)
-  nameWithType.vb: IPlugin.EventAsyncHandler(Of TEventArgs).Invoke(TLS_BFClent, TEventArgs)
+- uid: Plugin.IPlugin.EventAsyncHandler`1.Invoke(SuperWx.WXUserLogin,`0)
+  name: Invoke(WXUserLogin, TEventArgs)
+  href: api/Plugin.IPlugin.EventAsyncHandler-1.html#Plugin_IPlugin_EventAsyncHandler_1_Invoke_SuperWx_WXUserLogin__0_
+  commentId: M:Plugin.IPlugin.EventAsyncHandler`1.Invoke(SuperWx.WXUserLogin,`0)
+  fullName: Plugin.IPlugin.EventAsyncHandler<TEventArgs>.Invoke(SuperWx.WXUserLogin, TEventArgs)
+  fullName.vb: Plugin.IPlugin.EventAsyncHandler(Of TEventArgs).Invoke(SuperWx.WXUserLogin, TEventArgs)
+  nameWithType: IPlugin.EventAsyncHandler<TEventArgs>.Invoke(WXUserLogin, TEventArgs)
+  nameWithType.vb: IPlugin.EventAsyncHandler(Of TEventArgs).Invoke(WXUserLogin, TEventArgs)
 - uid: Plugin.IPlugin.EventAsyncHandler`1.Invoke*
   name: Invoke
   href: api/Plugin.IPlugin.EventAsyncHandler-1.html#Plugin_IPlugin_EventAsyncHandler_1_Invoke_
@@ -3326,15 +3359,15 @@ references:
   commentId: Overload:Plugin.IPlugin.GetLabelList
   fullName: Plugin.IPlugin.GetLabelList
   nameWithType: IPlugin.GetLabelList
-- uid: Plugin.IPlugin.GetOnlineInfo(System.String,SuperWx.TriggerTheTimeEnum)
-  name: GetOnlineInfo(string, TriggerTheTimeEnum)
-  href: api/Plugin.IPlugin.html#Plugin_IPlugin_GetOnlineInfo_System_String_SuperWx_TriggerTheTimeEnum_
-  commentId: M:Plugin.IPlugin.GetOnlineInfo(System.String,SuperWx.TriggerTheTimeEnum)
-  name.vb: GetOnlineInfo(String, TriggerTheTimeEnum)
-  fullName: Plugin.IPlugin.GetOnlineInfo(string, SuperWx.TriggerTheTimeEnum)
-  fullName.vb: Plugin.IPlugin.GetOnlineInfo(String, SuperWx.TriggerTheTimeEnum)
-  nameWithType: IPlugin.GetOnlineInfo(string, TriggerTheTimeEnum)
-  nameWithType.vb: IPlugin.GetOnlineInfo(String, TriggerTheTimeEnum)
+- uid: Plugin.IPlugin.GetOnlineInfo(System.String)
+  name: GetOnlineInfo(string)
+  href: api/Plugin.IPlugin.html#Plugin_IPlugin_GetOnlineInfo_System_String_
+  commentId: M:Plugin.IPlugin.GetOnlineInfo(System.String)
+  name.vb: GetOnlineInfo(String)
+  fullName: Plugin.IPlugin.GetOnlineInfo(string)
+  fullName.vb: Plugin.IPlugin.GetOnlineInfo(String)
+  nameWithType: IPlugin.GetOnlineInfo(string)
+  nameWithType.vb: IPlugin.GetOnlineInfo(String)
 - uid: Plugin.IPlugin.GetOnlineInfo*
   name: GetOnlineInfo
   href: api/Plugin.IPlugin.html#Plugin_IPlugin_GetOnlineInfo_
@@ -3599,132 +3632,147 @@ references:
   commentId: Overload:Plugin.IPlugin.OauthAuthorize
   fullName: Plugin.IPlugin.OauthAuthorize
   nameWithType: IPlugin.OauthAuthorize
-- uid: Plugin.IPlugin.OnFriendMessage(SuperWx.TLS_BFClent,Plugin.EveEntitys.ReceiveFriendMessageArgs)
-  name: OnFriendMessage(TLS_BFClent, ReceiveFriendMessageArgs)
-  href: api/Plugin.IPlugin.html#Plugin_IPlugin_OnFriendMessage_SuperWx_TLS_BFClent_Plugin_EveEntitys_ReceiveFriendMessageArgs_
-  commentId: M:Plugin.IPlugin.OnFriendMessage(SuperWx.TLS_BFClent,Plugin.EveEntitys.ReceiveFriendMessageArgs)
-  fullName: Plugin.IPlugin.OnFriendMessage(SuperWx.TLS_BFClent, Plugin.EveEntitys.ReceiveFriendMessageArgs)
-  nameWithType: IPlugin.OnFriendMessage(TLS_BFClent, ReceiveFriendMessageArgs)
+- uid: Plugin.IPlugin.OnFriendMessage(SuperWx.WXUserLogin,Plugin.EveEntitys.ReceiveFriendMessageArgs)
+  name: OnFriendMessage(WXUserLogin, ReceiveFriendMessageArgs)
+  href: api/Plugin.IPlugin.html#Plugin_IPlugin_OnFriendMessage_SuperWx_WXUserLogin_Plugin_EveEntitys_ReceiveFriendMessageArgs_
+  commentId: M:Plugin.IPlugin.OnFriendMessage(SuperWx.WXUserLogin,Plugin.EveEntitys.ReceiveFriendMessageArgs)
+  fullName: Plugin.IPlugin.OnFriendMessage(SuperWx.WXUserLogin, Plugin.EveEntitys.ReceiveFriendMessageArgs)
+  nameWithType: IPlugin.OnFriendMessage(WXUserLogin, ReceiveFriendMessageArgs)
 - uid: Plugin.IPlugin.OnFriendMessage*
   name: OnFriendMessage
   href: api/Plugin.IPlugin.html#Plugin_IPlugin_OnFriendMessage_
   commentId: Overload:Plugin.IPlugin.OnFriendMessage
   fullName: Plugin.IPlugin.OnFriendMessage
   nameWithType: IPlugin.OnFriendMessage
-- uid: Plugin.IPlugin.OnFriendRevokeMsg(SuperWx.TLS_BFClent,Plugin.EveEntitys.ReceiveFriendMessageArgs)
-  name: OnFriendRevokeMsg(TLS_BFClent, ReceiveFriendMessageArgs)
-  href: api/Plugin.IPlugin.html#Plugin_IPlugin_OnFriendRevokeMsg_SuperWx_TLS_BFClent_Plugin_EveEntitys_ReceiveFriendMessageArgs_
-  commentId: M:Plugin.IPlugin.OnFriendRevokeMsg(SuperWx.TLS_BFClent,Plugin.EveEntitys.ReceiveFriendMessageArgs)
-  fullName: Plugin.IPlugin.OnFriendRevokeMsg(SuperWx.TLS_BFClent, Plugin.EveEntitys.ReceiveFriendMessageArgs)
-  nameWithType: IPlugin.OnFriendRevokeMsg(TLS_BFClent, ReceiveFriendMessageArgs)
+- uid: Plugin.IPlugin.OnFriendRevokeMsg(SuperWx.WXUserLogin,Plugin.EveEntitys.ReceiveFriendMessageArgs)
+  name: OnFriendRevokeMsg(WXUserLogin, ReceiveFriendMessageArgs)
+  href: api/Plugin.IPlugin.html#Plugin_IPlugin_OnFriendRevokeMsg_SuperWx_WXUserLogin_Plugin_EveEntitys_ReceiveFriendMessageArgs_
+  commentId: M:Plugin.IPlugin.OnFriendRevokeMsg(SuperWx.WXUserLogin,Plugin.EveEntitys.ReceiveFriendMessageArgs)
+  fullName: Plugin.IPlugin.OnFriendRevokeMsg(SuperWx.WXUserLogin, Plugin.EveEntitys.ReceiveFriendMessageArgs)
+  nameWithType: IPlugin.OnFriendRevokeMsg(WXUserLogin, ReceiveFriendMessageArgs)
 - uid: Plugin.IPlugin.OnFriendRevokeMsg*
   name: OnFriendRevokeMsg
   href: api/Plugin.IPlugin.html#Plugin_IPlugin_OnFriendRevokeMsg_
   commentId: Overload:Plugin.IPlugin.OnFriendRevokeMsg
   fullName: Plugin.IPlugin.OnFriendRevokeMsg
   nameWithType: IPlugin.OnFriendRevokeMsg
-- uid: Plugin.IPlugin.OnGroupMemberEnter(SuperWx.TLS_BFClent,Plugin.EveEntitys.ReceiveGroupMemberEnterArgs)
-  name: OnGroupMemberEnter(TLS_BFClent, ReceiveGroupMemberEnterArgs)
-  href: api/Plugin.IPlugin.html#Plugin_IPlugin_OnGroupMemberEnter_SuperWx_TLS_BFClent_Plugin_EveEntitys_ReceiveGroupMemberEnterArgs_
-  commentId: M:Plugin.IPlugin.OnGroupMemberEnter(SuperWx.TLS_BFClent,Plugin.EveEntitys.ReceiveGroupMemberEnterArgs)
-  fullName: Plugin.IPlugin.OnGroupMemberEnter(SuperWx.TLS_BFClent, Plugin.EveEntitys.ReceiveGroupMemberEnterArgs)
-  nameWithType: IPlugin.OnGroupMemberEnter(TLS_BFClent, ReceiveGroupMemberEnterArgs)
+- uid: Plugin.IPlugin.OnGroupMemberEnter(SuperWx.WXUserLogin,Plugin.EveEntitys.ReceiveGroupMemberEnterArgs)
+  name: OnGroupMemberEnter(WXUserLogin, ReceiveGroupMemberEnterArgs)
+  href: api/Plugin.IPlugin.html#Plugin_IPlugin_OnGroupMemberEnter_SuperWx_WXUserLogin_Plugin_EveEntitys_ReceiveGroupMemberEnterArgs_
+  commentId: M:Plugin.IPlugin.OnGroupMemberEnter(SuperWx.WXUserLogin,Plugin.EveEntitys.ReceiveGroupMemberEnterArgs)
+  fullName: Plugin.IPlugin.OnGroupMemberEnter(SuperWx.WXUserLogin, Plugin.EveEntitys.ReceiveGroupMemberEnterArgs)
+  nameWithType: IPlugin.OnGroupMemberEnter(WXUserLogin, ReceiveGroupMemberEnterArgs)
 - uid: Plugin.IPlugin.OnGroupMemberEnter*
   name: OnGroupMemberEnter
   href: api/Plugin.IPlugin.html#Plugin_IPlugin_OnGroupMemberEnter_
   commentId: Overload:Plugin.IPlugin.OnGroupMemberEnter
   fullName: Plugin.IPlugin.OnGroupMemberEnter
   nameWithType: IPlugin.OnGroupMemberEnter
-- uid: Plugin.IPlugin.OnGroupMemberQuit(SuperWx.TLS_BFClent,Plugin.EveEntitys.ReceiveGroupMemberQuitArgs)
-  name: OnGroupMemberQuit(TLS_BFClent, ReceiveGroupMemberQuitArgs)
-  href: api/Plugin.IPlugin.html#Plugin_IPlugin_OnGroupMemberQuit_SuperWx_TLS_BFClent_Plugin_EveEntitys_ReceiveGroupMemberQuitArgs_
-  commentId: M:Plugin.IPlugin.OnGroupMemberQuit(SuperWx.TLS_BFClent,Plugin.EveEntitys.ReceiveGroupMemberQuitArgs)
-  fullName: Plugin.IPlugin.OnGroupMemberQuit(SuperWx.TLS_BFClent, Plugin.EveEntitys.ReceiveGroupMemberQuitArgs)
-  nameWithType: IPlugin.OnGroupMemberQuit(TLS_BFClent, ReceiveGroupMemberQuitArgs)
+- uid: Plugin.IPlugin.OnGroupMemberQuit(SuperWx.WXUserLogin,Plugin.EveEntitys.ReceiveGroupMemberQuitArgs)
+  name: OnGroupMemberQuit(WXUserLogin, ReceiveGroupMemberQuitArgs)
+  href: api/Plugin.IPlugin.html#Plugin_IPlugin_OnGroupMemberQuit_SuperWx_WXUserLogin_Plugin_EveEntitys_ReceiveGroupMemberQuitArgs_
+  commentId: M:Plugin.IPlugin.OnGroupMemberQuit(SuperWx.WXUserLogin,Plugin.EveEntitys.ReceiveGroupMemberQuitArgs)
+  fullName: Plugin.IPlugin.OnGroupMemberQuit(SuperWx.WXUserLogin, Plugin.EveEntitys.ReceiveGroupMemberQuitArgs)
+  nameWithType: IPlugin.OnGroupMemberQuit(WXUserLogin, ReceiveGroupMemberQuitArgs)
 - uid: Plugin.IPlugin.OnGroupMemberQuit*
   name: OnGroupMemberQuit
   href: api/Plugin.IPlugin.html#Plugin_IPlugin_OnGroupMemberQuit_
   commentId: Overload:Plugin.IPlugin.OnGroupMemberQuit
   fullName: Plugin.IPlugin.OnGroupMemberQuit
   nameWithType: IPlugin.OnGroupMemberQuit
-- uid: Plugin.IPlugin.OnGroupMessage(SuperWx.TLS_BFClent,Plugin.EveEntitys.ReceiveGroupMessageArgs)
-  name: OnGroupMessage(TLS_BFClent, ReceiveGroupMessageArgs)
-  href: api/Plugin.IPlugin.html#Plugin_IPlugin_OnGroupMessage_SuperWx_TLS_BFClent_Plugin_EveEntitys_ReceiveGroupMessageArgs_
-  commentId: M:Plugin.IPlugin.OnGroupMessage(SuperWx.TLS_BFClent,Plugin.EveEntitys.ReceiveGroupMessageArgs)
-  fullName: Plugin.IPlugin.OnGroupMessage(SuperWx.TLS_BFClent, Plugin.EveEntitys.ReceiveGroupMessageArgs)
-  nameWithType: IPlugin.OnGroupMessage(TLS_BFClent, ReceiveGroupMessageArgs)
+- uid: Plugin.IPlugin.OnGroupMessage(SuperWx.WXUserLogin,Plugin.EveEntitys.ReceiveGroupMessageArgs)
+  name: OnGroupMessage(WXUserLogin, ReceiveGroupMessageArgs)
+  href: api/Plugin.IPlugin.html#Plugin_IPlugin_OnGroupMessage_SuperWx_WXUserLogin_Plugin_EveEntitys_ReceiveGroupMessageArgs_
+  commentId: M:Plugin.IPlugin.OnGroupMessage(SuperWx.WXUserLogin,Plugin.EveEntitys.ReceiveGroupMessageArgs)
+  fullName: Plugin.IPlugin.OnGroupMessage(SuperWx.WXUserLogin, Plugin.EveEntitys.ReceiveGroupMessageArgs)
+  nameWithType: IPlugin.OnGroupMessage(WXUserLogin, ReceiveGroupMessageArgs)
 - uid: Plugin.IPlugin.OnGroupMessage*
   name: OnGroupMessage
   href: api/Plugin.IPlugin.html#Plugin_IPlugin_OnGroupMessage_
   commentId: Overload:Plugin.IPlugin.OnGroupMessage
   fullName: Plugin.IPlugin.OnGroupMessage
   nameWithType: IPlugin.OnGroupMessage
-- uid: Plugin.IPlugin.OnGroupNameChange(SuperWx.TLS_BFClent,Plugin.EveEntitys.ReceiveGroupNameChangeArgs)
-  name: OnGroupNameChange(TLS_BFClent, ReceiveGroupNameChangeArgs)
-  href: api/Plugin.IPlugin.html#Plugin_IPlugin_OnGroupNameChange_SuperWx_TLS_BFClent_Plugin_EveEntitys_ReceiveGroupNameChangeArgs_
-  commentId: M:Plugin.IPlugin.OnGroupNameChange(SuperWx.TLS_BFClent,Plugin.EveEntitys.ReceiveGroupNameChangeArgs)
-  fullName: Plugin.IPlugin.OnGroupNameChange(SuperWx.TLS_BFClent, Plugin.EveEntitys.ReceiveGroupNameChangeArgs)
-  nameWithType: IPlugin.OnGroupNameChange(TLS_BFClent, ReceiveGroupNameChangeArgs)
+- uid: Plugin.IPlugin.OnGroupNameChange(SuperWx.WXUserLogin,Plugin.EveEntitys.ReceiveGroupNameChangeArgs)
+  name: OnGroupNameChange(WXUserLogin, ReceiveGroupNameChangeArgs)
+  href: api/Plugin.IPlugin.html#Plugin_IPlugin_OnGroupNameChange_SuperWx_WXUserLogin_Plugin_EveEntitys_ReceiveGroupNameChangeArgs_
+  commentId: M:Plugin.IPlugin.OnGroupNameChange(SuperWx.WXUserLogin,Plugin.EveEntitys.ReceiveGroupNameChangeArgs)
+  fullName: Plugin.IPlugin.OnGroupNameChange(SuperWx.WXUserLogin, Plugin.EveEntitys.ReceiveGroupNameChangeArgs)
+  nameWithType: IPlugin.OnGroupNameChange(WXUserLogin, ReceiveGroupNameChangeArgs)
 - uid: Plugin.IPlugin.OnGroupNameChange*
   name: OnGroupNameChange
   href: api/Plugin.IPlugin.html#Plugin_IPlugin_OnGroupNameChange_
   commentId: Overload:Plugin.IPlugin.OnGroupNameChange
   fullName: Plugin.IPlugin.OnGroupNameChange
   nameWithType: IPlugin.OnGroupNameChange
-- uid: Plugin.IPlugin.OnGroupRevokeMsg(SuperWx.TLS_BFClent,Plugin.EveEntitys.ReceiveGroupMessageArgs)
-  name: OnGroupRevokeMsg(TLS_BFClent, ReceiveGroupMessageArgs)
-  href: api/Plugin.IPlugin.html#Plugin_IPlugin_OnGroupRevokeMsg_SuperWx_TLS_BFClent_Plugin_EveEntitys_ReceiveGroupMessageArgs_
-  commentId: M:Plugin.IPlugin.OnGroupRevokeMsg(SuperWx.TLS_BFClent,Plugin.EveEntitys.ReceiveGroupMessageArgs)
-  fullName: Plugin.IPlugin.OnGroupRevokeMsg(SuperWx.TLS_BFClent, Plugin.EveEntitys.ReceiveGroupMessageArgs)
-  nameWithType: IPlugin.OnGroupRevokeMsg(TLS_BFClent, ReceiveGroupMessageArgs)
+- uid: Plugin.IPlugin.OnGroupRevokeMsg(SuperWx.WXUserLogin,Plugin.EveEntitys.ReceiveGroupMessageArgs)
+  name: OnGroupRevokeMsg(WXUserLogin, ReceiveGroupMessageArgs)
+  href: api/Plugin.IPlugin.html#Plugin_IPlugin_OnGroupRevokeMsg_SuperWx_WXUserLogin_Plugin_EveEntitys_ReceiveGroupMessageArgs_
+  commentId: M:Plugin.IPlugin.OnGroupRevokeMsg(SuperWx.WXUserLogin,Plugin.EveEntitys.ReceiveGroupMessageArgs)
+  fullName: Plugin.IPlugin.OnGroupRevokeMsg(SuperWx.WXUserLogin, Plugin.EveEntitys.ReceiveGroupMessageArgs)
+  nameWithType: IPlugin.OnGroupRevokeMsg(WXUserLogin, ReceiveGroupMessageArgs)
 - uid: Plugin.IPlugin.OnGroupRevokeMsg*
   name: OnGroupRevokeMsg
   href: api/Plugin.IPlugin.html#Plugin_IPlugin_OnGroupRevokeMsg_
   commentId: Overload:Plugin.IPlugin.OnGroupRevokeMsg
   fullName: Plugin.IPlugin.OnGroupRevokeMsg
   nameWithType: IPlugin.OnGroupRevokeMsg
-- uid: Plugin.IPlugin.OnNewFriend(SuperWx.TLS_BFClent,Plugin.EveEntitys.ReceiveNewFriendArgs)
-  name: OnNewFriend(TLS_BFClent, ReceiveNewFriendArgs)
-  href: api/Plugin.IPlugin.html#Plugin_IPlugin_OnNewFriend_SuperWx_TLS_BFClent_Plugin_EveEntitys_ReceiveNewFriendArgs_
-  commentId: M:Plugin.IPlugin.OnNewFriend(SuperWx.TLS_BFClent,Plugin.EveEntitys.ReceiveNewFriendArgs)
-  fullName: Plugin.IPlugin.OnNewFriend(SuperWx.TLS_BFClent, Plugin.EveEntitys.ReceiveNewFriendArgs)
-  nameWithType: IPlugin.OnNewFriend(TLS_BFClent, ReceiveNewFriendArgs)
+- uid: Plugin.IPlugin.OnLog(System.String)
+  name: OnLog(string)
+  href: api/Plugin.IPlugin.html#Plugin_IPlugin_OnLog_System_String_
+  commentId: M:Plugin.IPlugin.OnLog(System.String)
+  name.vb: OnLog(String)
+  fullName: Plugin.IPlugin.OnLog(string)
+  fullName.vb: Plugin.IPlugin.OnLog(String)
+  nameWithType: IPlugin.OnLog(string)
+  nameWithType.vb: IPlugin.OnLog(String)
+- uid: Plugin.IPlugin.OnLog*
+  name: OnLog
+  href: api/Plugin.IPlugin.html#Plugin_IPlugin_OnLog_
+  commentId: Overload:Plugin.IPlugin.OnLog
+  fullName: Plugin.IPlugin.OnLog
+  nameWithType: IPlugin.OnLog
+- uid: Plugin.IPlugin.OnNewFriend(SuperWx.WXUserLogin,Plugin.EveEntitys.ReceiveNewFriendArgs)
+  name: OnNewFriend(WXUserLogin, ReceiveNewFriendArgs)
+  href: api/Plugin.IPlugin.html#Plugin_IPlugin_OnNewFriend_SuperWx_WXUserLogin_Plugin_EveEntitys_ReceiveNewFriendArgs_
+  commentId: M:Plugin.IPlugin.OnNewFriend(SuperWx.WXUserLogin,Plugin.EveEntitys.ReceiveNewFriendArgs)
+  fullName: Plugin.IPlugin.OnNewFriend(SuperWx.WXUserLogin, Plugin.EveEntitys.ReceiveNewFriendArgs)
+  nameWithType: IPlugin.OnNewFriend(WXUserLogin, ReceiveNewFriendArgs)
 - uid: Plugin.IPlugin.OnNewFriend*
   name: OnNewFriend
   href: api/Plugin.IPlugin.html#Plugin_IPlugin_OnNewFriend_
   commentId: Overload:Plugin.IPlugin.OnNewFriend
   fullName: Plugin.IPlugin.OnNewFriend
   nameWithType: IPlugin.OnNewFriend
-- uid: Plugin.IPlugin.OnOtherDeviceMessage(SuperWx.TLS_BFClent,Plugin.EveEntitys.ReceiveOtherDeviceMessageArgs)
-  name: OnOtherDeviceMessage(TLS_BFClent, ReceiveOtherDeviceMessageArgs)
-  href: api/Plugin.IPlugin.html#Plugin_IPlugin_OnOtherDeviceMessage_SuperWx_TLS_BFClent_Plugin_EveEntitys_ReceiveOtherDeviceMessageArgs_
-  commentId: M:Plugin.IPlugin.OnOtherDeviceMessage(SuperWx.TLS_BFClent,Plugin.EveEntitys.ReceiveOtherDeviceMessageArgs)
-  fullName: Plugin.IPlugin.OnOtherDeviceMessage(SuperWx.TLS_BFClent, Plugin.EveEntitys.ReceiveOtherDeviceMessageArgs)
-  nameWithType: IPlugin.OnOtherDeviceMessage(TLS_BFClent, ReceiveOtherDeviceMessageArgs)
+- uid: Plugin.IPlugin.OnOtherDeviceMessage(SuperWx.WXUserLogin,Plugin.EveEntitys.ReceiveOtherDeviceMessageArgs)
+  name: OnOtherDeviceMessage(WXUserLogin, ReceiveOtherDeviceMessageArgs)
+  href: api/Plugin.IPlugin.html#Plugin_IPlugin_OnOtherDeviceMessage_SuperWx_WXUserLogin_Plugin_EveEntitys_ReceiveOtherDeviceMessageArgs_
+  commentId: M:Plugin.IPlugin.OnOtherDeviceMessage(SuperWx.WXUserLogin,Plugin.EveEntitys.ReceiveOtherDeviceMessageArgs)
+  fullName: Plugin.IPlugin.OnOtherDeviceMessage(SuperWx.WXUserLogin, Plugin.EveEntitys.ReceiveOtherDeviceMessageArgs)
+  nameWithType: IPlugin.OnOtherDeviceMessage(WXUserLogin, ReceiveOtherDeviceMessageArgs)
 - uid: Plugin.IPlugin.OnOtherDeviceMessage*
   name: OnOtherDeviceMessage
   href: api/Plugin.IPlugin.html#Plugin_IPlugin_OnOtherDeviceMessage_
   commentId: Overload:Plugin.IPlugin.OnOtherDeviceMessage
   fullName: Plugin.IPlugin.OnOtherDeviceMessage
   nameWithType: IPlugin.OnOtherDeviceMessage
-- uid: Plugin.IPlugin.OnReceiveQRCodePay(SuperWx.TLS_BFClent,Plugin.EveEntitys.ReceiveQRCodePayArgs)
-  name: OnReceiveQRCodePay(TLS_BFClent, ReceiveQRCodePayArgs)
-  href: api/Plugin.IPlugin.html#Plugin_IPlugin_OnReceiveQRCodePay_SuperWx_TLS_BFClent_Plugin_EveEntitys_ReceiveQRCodePayArgs_
-  commentId: M:Plugin.IPlugin.OnReceiveQRCodePay(SuperWx.TLS_BFClent,Plugin.EveEntitys.ReceiveQRCodePayArgs)
-  fullName: Plugin.IPlugin.OnReceiveQRCodePay(SuperWx.TLS_BFClent, Plugin.EveEntitys.ReceiveQRCodePayArgs)
-  nameWithType: IPlugin.OnReceiveQRCodePay(TLS_BFClent, ReceiveQRCodePayArgs)
+- uid: Plugin.IPlugin.OnReceiveQRCodePay(SuperWx.WXUserLogin,Plugin.EveEntitys.ReceiveQRCodePayArgs)
+  name: OnReceiveQRCodePay(WXUserLogin, ReceiveQRCodePayArgs)
+  href: api/Plugin.IPlugin.html#Plugin_IPlugin_OnReceiveQRCodePay_SuperWx_WXUserLogin_Plugin_EveEntitys_ReceiveQRCodePayArgs_
+  commentId: M:Plugin.IPlugin.OnReceiveQRCodePay(SuperWx.WXUserLogin,Plugin.EveEntitys.ReceiveQRCodePayArgs)
+  fullName: Plugin.IPlugin.OnReceiveQRCodePay(SuperWx.WXUserLogin, Plugin.EveEntitys.ReceiveQRCodePayArgs)
+  nameWithType: IPlugin.OnReceiveQRCodePay(WXUserLogin, ReceiveQRCodePayArgs)
 - uid: Plugin.IPlugin.OnReceiveQRCodePay*
   name: OnReceiveQRCodePay
   href: api/Plugin.IPlugin.html#Plugin_IPlugin_OnReceiveQRCodePay_
   commentId: Overload:Plugin.IPlugin.OnReceiveQRCodePay
   fullName: Plugin.IPlugin.OnReceiveQRCodePay
   nameWithType: IPlugin.OnReceiveQRCodePay
-- uid: Plugin.IPlugin.OnSystemMessage(SuperWx.TLS_BFClent,Plugin.EveEntitys.ReceiveSystemMessageArgs)
-  name: OnSystemMessage(TLS_BFClent, ReceiveSystemMessageArgs)
-  href: api/Plugin.IPlugin.html#Plugin_IPlugin_OnSystemMessage_SuperWx_TLS_BFClent_Plugin_EveEntitys_ReceiveSystemMessageArgs_
-  commentId: M:Plugin.IPlugin.OnSystemMessage(SuperWx.TLS_BFClent,Plugin.EveEntitys.ReceiveSystemMessageArgs)
-  fullName: Plugin.IPlugin.OnSystemMessage(SuperWx.TLS_BFClent, Plugin.EveEntitys.ReceiveSystemMessageArgs)
-  nameWithType: IPlugin.OnSystemMessage(TLS_BFClent, ReceiveSystemMessageArgs)
+- uid: Plugin.IPlugin.OnSystemMessage(SuperWx.WXUserLogin,Plugin.EveEntitys.ReceiveSystemMessageArgs)
+  name: OnSystemMessage(WXUserLogin, ReceiveSystemMessageArgs)
+  href: api/Plugin.IPlugin.html#Plugin_IPlugin_OnSystemMessage_SuperWx_WXUserLogin_Plugin_EveEntitys_ReceiveSystemMessageArgs_
+  commentId: M:Plugin.IPlugin.OnSystemMessage(SuperWx.WXUserLogin,Plugin.EveEntitys.ReceiveSystemMessageArgs)
+  fullName: Plugin.IPlugin.OnSystemMessage(SuperWx.WXUserLogin, Plugin.EveEntitys.ReceiveSystemMessageArgs)
+  nameWithType: IPlugin.OnSystemMessage(WXUserLogin, ReceiveSystemMessageArgs)
 - uid: Plugin.IPlugin.OnSystemMessage*
   name: OnSystemMessage
   href: api/Plugin.IPlugin.html#Plugin_IPlugin_OnSystemMessage_
@@ -3842,6 +3890,21 @@ references:
   commentId: Overload:Plugin.IPlugin.SearchContact
   fullName: Plugin.IPlugin.SearchContact
   nameWithType: IPlugin.SearchContact
+- uid: Plugin.IPlugin.SearchOpenIMContact(System.String,System.String)
+  name: SearchOpenIMContact(string, string)
+  href: api/Plugin.IPlugin.html#Plugin_IPlugin_SearchOpenIMContact_System_String_System_String_
+  commentId: M:Plugin.IPlugin.SearchOpenIMContact(System.String,System.String)
+  name.vb: SearchOpenIMContact(String, String)
+  fullName: Plugin.IPlugin.SearchOpenIMContact(string, string)
+  fullName.vb: Plugin.IPlugin.SearchOpenIMContact(String, String)
+  nameWithType: IPlugin.SearchOpenIMContact(string, string)
+  nameWithType.vb: IPlugin.SearchOpenIMContact(String, String)
+- uid: Plugin.IPlugin.SearchOpenIMContact*
+  name: SearchOpenIMContact
+  href: api/Plugin.IPlugin.html#Plugin_IPlugin_SearchOpenIMContact_
+  commentId: Overload:Plugin.IPlugin.SearchOpenIMContact
+  fullName: Plugin.IPlugin.SearchOpenIMContact
+  nameWithType: IPlugin.SearchOpenIMContact
 - uid: Plugin.IPlugin.SearchTagJump(System.String,System.String)
   name: SearchTagJump(string, string)
   href: api/Plugin.IPlugin.html#Plugin_IPlugin_SearchTagJump_System_String_System_String_

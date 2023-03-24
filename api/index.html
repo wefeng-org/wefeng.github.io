@@ -5,11 +5,11 @@
   <head>
     <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-      <title>PLACEHOLDER </title>
+      <title>快速开始 | 微风机器人文档 </title>
       <meta name="viewport" content="width=device-width">
-      <meta name="title" content="PLACEHOLDER ">
+      <meta name="title" content="快速开始 | 微风机器人文档 ">
     
-      <link rel="shortcut icon" href="../favicon.ico">
+      <link rel="shortcut icon" href="../images/logo.svg">
       <link rel="stylesheet" href="../styles/docfx.vendor.min.css">
       <link rel="stylesheet" href="../styles/docfx.css">
       <link rel="stylesheet" href="../styles/main.css">
@@ -34,7 +34,7 @@
               </button>
 
               <a class="navbar-brand" href="../index.html">
-                <img id="logo" class="svg" src="../logo.svg" alt="">
+                <img id="logo" class="svg" src="../images/logo.svg" alt="微风">
               </a>
             </div>
             <div class="collapse navbar-collapse" id="navbar">
@@ -45,6 +45,9 @@
               </form>
 
                 <ul class="nav level1 navbar-nav">
+                      <li>
+                          <a href="../index.html" title="主页">主页</a>
+                      </li>
                       <li>
                           <a href="../articles/intro.html" title="日志">日志</a>
                       </li>
@@ -89,7 +92,9 @@
                           <li class="">
                             <a href="Plugin.Conts.html" title="Conts" class="">Conts</a>
                           </li>
-                          
+                          <li class="">
+                            <a href="Plugin.Eve.html" title="Eve" class="">Eve</a>
+                          </li>
                           <li class="">
                             <a href="Plugin.IPlugin.html" title="IPlugin" class="">IPlugin</a>
                           </li>
@@ -210,18 +215,66 @@
         <div class="article row grid-right">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
-<h1 id="placeholder">PLACEHOLDER</h1>
+<h1 id="快速开始">快速开始</h1>
 
-<p>TODO: Add .NET projects to the <em>src</em> folder and run <code>docfx</code> to generate <strong>REAL</strong> <em>API Documentation</em>!</p>
+<p>用vs创建一个dotnet6的类库项目，然后在项目中添加一个类,就完成了一个鹦鹉学舌的插件，代码如下：</p>
+<pre><code class="lang-csharp">    /// &lt;summary&gt;
+    /// 插件本体,系统会扫描到这个文件,并执行里面的方法
+    /// 项目要引用Plugin.dll,
+    /// 可以将引入的dll的属性 &quot;复制本地&quot;设置为否,这样会减少插件文件生成时的多余文件
+    /// &lt;/summary&gt;
+    public class MainPlugin:IPlugin
+    {
+        /// &lt;summary&gt;
+        /// 插件作者,会在插件页面上展示
+        /// &lt;/summary&gt;
+        public override string Author =&gt; &quot;Byboy&quot;;
+        /// &lt;summary&gt;
+        /// 插件描述,会在插件页面上展示
+        /// &lt;/summary&gt;
+        public override string Description =&gt; &quot;学人说话&quot;;
+        /// &lt;summary&gt;
+        /// 插件名称,会在插件页面上展示
+        /// &lt;/summary&gt;
+        public override string Name =&gt; &quot;鹦鹉学舌&quot;;
+        /// &lt;summary&gt;
+        /// 插件版本,会在插件页面上展示
+        /// &lt;/summary&gt;
+        public override string Version =&gt;&quot;v1.0&quot;;
+
+        public override void Initialize()
+        {
+            // 插件初始化,可以在这里初始化插件的一些事情
+            // 例如初始化数据库,订阅事件之类的
+            // 订阅收到消息事件,订阅这个事件时需要引用的带二个dll,SuperWx.dll
+            ReceiveFriendMessage += this.MainPlugin_ReceiveFriendMessage;
+            base.Initialize();
+        }
+
+        private async Task MainPlugin_ReceiveFriendMessage(SuperWx.WXUserLogin sender,Plugin.EveEntitys.ReceiveFriendMessageArgs e)
+        {
+            // 这个方法必须引用mg.wecode.dll以及mg.protobuf.dll,消息体支持一些标签,例如骰子标签,石头剪刀布标签
+            /*
+             * at谁[@Username]
+             * app消息必须已&lt;appmsg开头.&lt;/appmsg&gt;结尾
+             * 本地图片[Image=本地地址]
+             * 网络图案[Image=网络地址]
+             * 骰子[emoji=dice:1~6]
+             * 石头剪刀布[emoji=rock:1~3]
+             * emoji表情[emoji=md5:md5]
+             * 名片消息[card=Username]
+             */
+            await SendTextMsg(sender.OriginalId,e.Username,e.Content.Text);
+            //如果此事件是最终处理的结果,即不需要该事件流入下一个插件中,则需要将e.Cancel设置为true,否则可以设置为false
+            e.Cancel = true;
+        }
+    }
+</code></pre>
 </article>
           </div>
 
           <div class="hidden-sm col-md-2" role="complementary">
             <div class="sideaffix">
-              <div class="contribution">
-                <ul class="nav">
-                </ul>
-              </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
                 <h5>In This Article</h5>
                 <div></div>
@@ -236,10 +289,10 @@
         <div class="footer">
           <div class="container">
             <span class="pull-right">
-              <a href="#top">返回顶部</a>
+              <a href="#top">Back to top</a>
             </span>
+      © 2023 微风版权所有
       
-      <span>Generated by <strong>DocFX</strong></span>
           </div>
         </div>
       </footer>

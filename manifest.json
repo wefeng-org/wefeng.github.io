@@ -1,6 +1,6 @@
 {
   "homepages": [],
-  "source_base_path": "D:/workspase/docfx_project",
+  "source_base_path": "D:/docfx_project",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -9,7 +9,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Plugin.BaseConfig.html",
-          "hash": "5ahgsfL0pKFw/+5odWzJ2Oe6I44vczn0roo6iRjHDUE="
+          "hash": "jGMz2S9hK5cxxTj8Ucapkdk9nf7On50kBMos5VNsItk="
         }
       },
       "version": ""
@@ -20,7 +20,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Plugin.Conts.html",
-          "hash": "073k+A+w4FUhlTw1agLsjFxU7mYawt/bOo+GiH5YwAE="
+          "hash": "EeXVVF7qYIgP89o1AXSH2m8E/Vzs4l04vKjbAKtSgH8="
         }
       },
       "version": ""
@@ -31,7 +31,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Plugin.DbEntitys.Data.html",
-          "hash": "33LClzzd+02GQqAKt3J6JhZGlrhUIPu72PSd79XQFKo="
+          "hash": "2ouhPEJ09l+YfH8Rn1OADPUU0k3UANXCkeLfyJPatc8="
         }
       },
       "version": ""
@@ -42,7 +42,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Plugin.DbEntitys.Evn.html",
-          "hash": "8HKIbj71q/kRDG0vNGOmKHKMzvQfOIANi7KMEZu+hmI="
+          "hash": "ZxuTd8OUKzzh1lvkL7KBSdVqIov5nIFLA4dFtZBuVY4="
         }
       },
       "version": ""
@@ -53,7 +53,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Plugin.DbEntitys.Integral.html",
-          "hash": "k5yNb1Lwm0hhElzVA4vS4rDOearo1vUxY2fY07Poj6c="
+          "hash": "VP+ucXraIarm32T1hJAUhdIwFK9W9wIWaXGibE+J0OM="
         }
       },
       "version": ""
@@ -64,7 +64,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Plugin.DbEntitys.IntegralList.html",
-          "hash": "z783QB1QhxUyIILJsofzPycCEg5sqZ+Cr3b/G/4ty58="
+          "hash": "Q1S1d6JhnSQ3yogiTSyuW//JsA72NoNkZ1e2Z/RsUe4="
         }
       },
       "version": ""
@@ -75,7 +75,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Plugin.DbEntitys.PluginConfig.html",
-          "hash": "pISSy6ARnIKnrEMYDG2JGANGrCk+srmxofe1AxT7Bpk="
+          "hash": "XycFshe9UtMkERAcAAQt7JRSM7DOp12xXO7x9OOF0D8="
         }
       },
       "version": ""
@@ -86,7 +86,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Plugin.DbEntitys.PluginConfigs.html",
-          "hash": "cMTnukftm7I5bYK27zHPtyFNZZ8Xk9s4V4sEOYRa2WY="
+          "hash": "j9CZb6MqE97EBhffOg1T9SUkYh3jq2IQVBnZ/dCOL+w="
         }
       },
       "version": ""
@@ -97,7 +97,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Plugin.DbEntitys.RobotConfig.html",
-          "hash": "7jTxS519JOBz2w5Z7vOsZP3/A8RmrubxSKXjnTykjno="
+          "hash": "//UicZmV3gAQ2Wwvt5zBBcfTl5z/CAvWux33VtlERYs="
         }
       },
       "version": ""
@@ -108,7 +108,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Plugin.DbEntitys.Status.html",
-          "hash": "iSmm5SyXu6YUWPhjbL4S+7ijkIuj8LwdzdOt3KZnobI="
+          "hash": "/gjNY0ZdIhdVRGWH2NHKCe6ZVAHEFSmZAELpjMXf49w="
         }
       },
       "version": ""
@@ -119,7 +119,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Plugin.DbEntitys.html",
-          "hash": "RbQodJ2K/UbKmvjft28JwbcxYrrQVsOszIbMVXkKWKs="
+          "hash": "kP6Do0j/sXLwrdmhD4K3096eDdZUQn5wLCV9BXoMEiw="
         }
       },
       "version": ""
@@ -130,7 +130,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Plugin.Eve.html",
-          "hash": "0nvXehtHdUhcr0rmXjs5CVFq+cJ6wapU6aIxXJj2x+I="
+          "hash": "OV1prEfWFb5YYWZykp2wQkpX+yrAgFuRl9cNADknNP4="
         }
       },
       "version": ""
@@ -141,7 +141,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Plugin.EveEntitys.BaseContactArgs.html",
-          "hash": "sqiX71+or5aM8Hmor1sPUNksSjKW2cXlFcSG5bRZQs0="
+          "hash": "/mG4JdB3UdBhyUGsps6D4zNTgwKbZZZcV4gw7Fv7Wg0="
         }
       },
       "version": ""
@@ -152,7 +152,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Plugin.EveEntitys.ContactArgs.html",
-          "hash": "vbo2/RjEbBxo4WlzpdaGUzWJMA3i6pcG/d7vGpScVuk="
+          "hash": "sIh73HJbMIbA8i32iVtT8Y/BLZeL89uj64Yc6Gt5CvU="
         }
       },
       "version": ""
@@ -163,7 +163,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Plugin.EveEntitys.ContactIconArgs.html",
-          "hash": "zXo6OlSPp3H++1GMH8iD9Ch5W6wAln1uWgfZFLvBDkU="
+          "hash": "ZRmArkXLChawWol4GnXRMVN+0pdik2fyELKqgOBr348="
         }
       },
       "version": ""
@@ -174,7 +174,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Plugin.EveEntitys.GroupArgs.html",
-          "hash": "+IVJXlsEKyG1qNiEk9Ntp/9fSTFVoC9vQI3UWphDjfE="
+          "hash": "w6rW8iMQLM/pMwYbL7KtykGpun3KgMvJ/ihNaIFjzEQ="
         }
       },
       "version": ""
@@ -185,7 +185,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Plugin.EveEntitys.GroupMemberArgs.html",
-          "hash": "fXv3DIMSAIAdXsRbxh3q0DXpn+ErgtN18NngXvGGo0g="
+          "hash": "59sRta8n7l3LVFK6bVvWi9mKhIgv+W7SUhmOzykt6QI="
         }
       },
       "version": ""
@@ -196,7 +196,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Plugin.EveEntitys.GroupMemberCollection.html",
-          "hash": "A6VKuIrqHqKFnK11BfehYOf4KIYW93SR8x+4FDRYKP0="
+          "hash": "0smdjknacmcUvhtpQtFMecKqn8y/QD8DsDftfm7qf+8="
         }
       },
       "version": ""
@@ -207,7 +207,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Plugin.EveEntitys.MessageBoxAgrs.html",
-          "hash": "ikZ9y0ZpIVnlq0Gg1ntpLqeyQYh+4nCEVkDxs1PBn6M="
+          "hash": "Eq9IBy622AIrnVO9wcWUiz/v1fDKXLMiuQrCfzSkfik="
         }
       },
       "version": ""
@@ -218,7 +218,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Plugin.EveEntitys.MessageType.html",
-          "hash": "vK2XOwqlYDv5UizOeoxsTVIeqgJD5q3B1aJf31sSpuA="
+          "hash": "ChKS1kB1V1msQ4ivjp2Ua4D+aXzrHfTMglcq5oDt0Ms="
         }
       },
       "version": ""
@@ -229,7 +229,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Plugin.EveEntitys.ReceiveFriendMessageArgs.html",
-          "hash": "tkHcIjQl5292hMM6fUyDg5zBV//rZVVxkU0dF61YksU="
+          "hash": "qKs0fIsiQJVnYUa5R6FesOvdGSCcORtDp/koM1q0TMI="
         }
       },
       "version": ""
@@ -240,7 +240,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Plugin.EveEntitys.ReceiveGroupMemberEnterArgs.html",
-          "hash": "n2vo/F8DWT535sT3uQ1LWTTTMqevJkCuFWOvCVUhnqM="
+          "hash": "e5NUvnHoq6gg4PI1k3ZP58NFoL8gZK8xBnxZZFNV+nM="
         }
       },
       "version": ""
@@ -251,7 +251,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Plugin.EveEntitys.ReceiveGroupMemberQuitArgs.html",
-          "hash": "WJWKm2iPqCffUlRU/q6bBlqMsBt62P/E8ktgUfFV9Q4="
+          "hash": "rpFXLgF9YU5hiWIo4+v7c7GcKcJ5mx22rwkxdHLjqc8="
         }
       },
       "version": ""
@@ -262,7 +262,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Plugin.EveEntitys.ReceiveGroupMessageArgs.html",
-          "hash": "nBfcyeuEEW5MZId60pn3S1Ntf0iIdBuRkIFNjzrzhG4="
+          "hash": "gd+Kr/CpX8o4bAdzoRcmb76rS3HJfBL8nGIqPMratbI="
         }
       },
       "version": ""
@@ -273,7 +273,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Plugin.EveEntitys.ReceiveGroupNameChangeArgs.html",
-          "hash": "IjE2CLq7bAC4Xe5GvsDrMS40Ajv5k35NRjmV9HT/OjA="
+          "hash": "byY3M4VSTsCI7uNehR6+BNF7ZcrEhoN27abcUJ1F0JU="
         }
       },
       "version": ""
@@ -284,7 +284,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Plugin.EveEntitys.ReceiveNewFriendArgs.html",
-          "hash": "2fjdf4AM9ECgdL9qQ2HIavyZnZ2K8ZbWC3YUDh1Myis="
+          "hash": "874YBnyOhExRgAFOSFbZkUMyqvytYxMMyMmEUKRb9X0="
         }
       },
       "version": ""
@@ -295,7 +295,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Plugin.EveEntitys.ReceiveOtherDeviceMessageArgs.html",
-          "hash": "wSLNu7yly1mOgCBLI/EtmiiFCuDEHFyYTmmBADsLIg0="
+          "hash": "mZ9bvGjLaidyb6XOq1TTMQBW8WjCf5AuDuXE2/YaCNg="
         }
       },
       "version": ""
@@ -306,7 +306,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Plugin.EveEntitys.ReceiveQRCodePayArgs.html",
-          "hash": "vhE5mSu3JVQGJNMa9qLlzId6yGCrhhhKc6l9ZMD4sP4="
+          "hash": "JpSddkS6ikpZPbmF4v+vlaqP8uv31OdS5A7YO4ULS80="
         }
       },
       "version": ""
@@ -317,7 +317,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Plugin.EveEntitys.ReceiveSystemMessageArgs.html",
-          "hash": "PSjMQN+6RFfsWUTOnya1LrjM0UQYRIZf8cJq4qNl99A="
+          "hash": "/H/UY9ZAyyJg7+UzwcZkAhN0PDc5/WfNFmdVZc08pwU="
         }
       },
       "version": ""
@@ -328,7 +328,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Plugin.EveEntitys.SendResponseArgs.html",
-          "hash": "kRomDL9INQUIZAeXRFavQPXVseDFaigVdCWDpartcsQ="
+          "hash": "w4EUWP6D8wN+sDOIUiDho4tyJhQuq1MdA44QGfUpmNI="
         }
       },
       "version": ""
@@ -339,7 +339,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Plugin.EveEntitys.WeClientEventArgs.html",
-          "hash": "gCGlgTvu/DeyxzDQPrelFGtdQRgPMwcyqCbraaw2+0E="
+          "hash": "d3GtmXda4z7yi9Ew0HJBKyyk30qFxXfO7opiFX6p8bo="
         }
       },
       "version": ""
@@ -350,7 +350,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Plugin.EveEntitys.html",
-          "hash": "MYL85dYicVoub0o9zIZjyVX1I9d84egPMMwLP6K0IxA="
+          "hash": "OoKlfS9isYrnznmhj8WjK0zCm3jAU9Tb2s1UsaePnLo="
         }
       },
       "version": ""
@@ -361,7 +361,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Plugin.IPlugin.EventAsyncHandler-1.html",
-          "hash": "TYwwN2gJJR0Kakm7HCIaFJ38Q6Ej82uolQibG+SYjuY="
+          "hash": "p2nQuT4eug5HZUM+b/THPWO0VnYxbySMXrdVyjjG96U="
         }
       },
       "version": ""
@@ -372,7 +372,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Plugin.IPlugin.html",
-          "hash": "ccZfQUXss5gEwI5kKv7lwDkMa1brVydCSBRlcRADjzU="
+          "hash": "yQYLhnXDr9BcjhP9gYx++fWQPSHHkdI+wVE/hhwCOmg="
         }
       },
       "version": ""
@@ -383,7 +383,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Plugin.StaticData.html",
-          "hash": "Ylxnc2dYLZMN2g+cifPETo0RaOlNbGkgpefhKxisa5Q="
+          "hash": "6W2Wyt5tSAFkeWG7WmUxtVwx9g+SygLDEq+vr+Zvha0="
         }
       },
       "version": ""
@@ -394,7 +394,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Plugin.html",
-          "hash": "qk2jNdodm6f0VkAfU9a9PpXKsWxVQd2iLLR9O7trLWA="
+          "hash": "OHSXhWV2iGYTOuyRoNjvZJ6QcQ/OH+cliIjhikDhlFg="
         }
       },
       "version": ""
@@ -405,7 +405,7 @@
       "output": {
         ".html": {
           "relative_path": "api/WeFeng.Db.DbUtilsHelpers.html",
-          "hash": "kQAc3KB4esur+FF14nOlEJy61he0O8BGk24Zpecp3xM="
+          "hash": "nj0C/B0RYcumDcEOYPEZkkfpnm3ZF/LKcIienHd/X+k="
         }
       },
       "version": ""
@@ -416,7 +416,7 @@
       "output": {
         ".html": {
           "relative_path": "api/WeFeng.Db.html",
-          "hash": "YIvkLy/qgPIYBCb5IzXK3plTgeZlzUC43vbmi0iAZaQ="
+          "hash": "pQgl9wtptP+iha/XX7htM6L1Yr+StGTZB6M7jzeRKco="
         }
       },
       "version": ""
@@ -427,7 +427,18 @@
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "j9Ijhat5tJ95QBVtIYdtfHZE9WLwQ5zAL6Dq6dqWA+E="
+          "hash": "7HRiqRUG/oH1kiHs1mW5JE/Lh+N/trfbsDjwwzumILQ="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/20230324.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/20230324.html",
+          "hash": "Q3j+jqIgyTcnfxN6Hdq/00KaGAs/nNaawAjFTE54tSM="
         }
       },
       "version": ""
@@ -438,7 +449,27 @@
       "output": {
         ".html": {
           "relative_path": "articles/intro.html",
-          "hash": "atofqynhBozf+CUbN6iwUs8KHExCjfcknVzAROGmc2s="
+          "hash": "gtNwzE6wjjwo9SluZ/UT0iVAgek9/XPlt0/NI76PPLo="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/favicon.ico",
+      "output": {
+        "resource": {
+          "relative_path": "images/favicon.ico"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/logo.svg",
+      "output": {
+        "resource": {
+          "relative_path": "images/logo.svg"
         }
       },
       "version": ""
@@ -449,7 +480,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "6cI7Ez6xWhIip3qrVegnDqjtnVyWcu3K7Ok9rfcxn/M="
+          "hash": "L4qfvfbccUuckv236txyhG30GbIULZu5A1iIrf3jmJ0="
         }
       },
       "version": ""
